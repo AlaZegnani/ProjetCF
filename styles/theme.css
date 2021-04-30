@@ -1,0 +1,532 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+    
+}
+
+.top {  
+    background: rgba(61, 34, 34, 0.3);
+    padding: 20px 0px;
+    width: 100%;
+    display: block;
+    border-radius: 0px;
+    z-index: 999;
+    margin-bottom: 0px;
+    transition: all 0.5s ease-in-out;
+    position: fixed;
+}
+
+.logo {
+height: 100%;
+display: table;
+float: left;
+}
+
+.logo1{
+    color: white;
+    height: 30px;
+    display: table-cell;
+    position: relative;
+    left: 90px;
+}
+
+.top ul, .navigation {
+    float: right;
+    height: 100%;
+    margin-right: 120px;
+}
+
+.top ul li  {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 24px;
+    height:100%;
+    display: table;
+    float: left;
+    
+}
+.top ul li a {
+    color: white;
+    padding: .5rem 1rem;
+    display: block;
+}
+.mef:active {
+    color: red;
+
+}
+
+
+
+/* home
+
+
+
+*/
+
+.container {
+    
+    height: 800px;
+    background-image: url("../assets/hola1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.container h2 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 23px;
+    color: white;
+    position: relative;
+    top: 170px;
+}
+.container h1 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 60px;
+    color: white;
+    position: relative;
+    top: 200px;
+}
+.container p {
+    font-family: 'Montserrat';
+    text-align: center;
+    position: relative;
+    top: 250px;
+    color: lightslategray;
+}
+.container button:hover {
+    background-color: white;
+    opacity: 0.7;
+    color: black;
+}
+.container button {
+    background-color: transparent;
+    border-radius: 30px;
+    border-color: white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 45%; 
+    cursor: pointer;
+    position: relative;
+    top: 300px;
+    font-family: 'Montserrat';
+    transition: all 1s;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+.imageflottante {
+    float: left;
+    height: 450px;
+    width:auto ;
+    position: relative;
+    left: 100px;
+    top: -35px;
+    border: 3px solid rgb(223, 219, 219);
+
+}
+.pos {
+    right: 20px;
+    left: 50px;
+
+}
+
+/* About
+
+*/
+
+.test{
+    float: right;
+    width: 40%;
+    position: relative;
+    right: 50px;
+    font-family: 'Montserrat';
+    
+}
+.test1 {
+    color:dimgray;
+    float: right;
+    width: 40%;
+    font-family: 'Montserrat';  
+    position: relative;
+    right: 50px; 
+}
+.test1 span {
+    color: #e65f78 !important;
+}
+
+.navigation  li  {
+    border: none;
+    display: table;
+    vertical-align: middle;
+    text-decoration: none;
+    display: inline-block; 
+    margin: 10px;
+    float: right;  
+    position: relative;
+    right: 90px;   
+    
+  }
+ 
+
+.dessous {
+    clear: both;
+}
+/*this is the part of services
+
+
+*/
+.service {
+    background-color: #f8f9fa;
+    height: 500px;
+}
+
+.service h1{
+    text-align: center;
+    font-family: 'Montserrat';
+    position: relative;
+    top: 100px;
+}
+
+.service h1 span {
+    font-weight: bolder;
+    font-family: inherit;
+}
+
+.service p {
+    font-family: 'Montserrat';
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+.serv {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    top: 222px;
+    padding: 5px 25px;
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    vertical-align: middle;
+}
+
+
+
+
+
+/*This is the Freelancer's part 
+
+
+
+
+*/
+
+.Freelancer {
+    background-color: white;
+    height: 300px;
+}
+
+
+.Freelancer h1 {
+    font-family: 'Montserrat';
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.Freelancer a button {
+    background-color: #e65f78;
+    height: 60px;
+    width: 130px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 45%;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 150px;
+   
+}
+
+.Freelancer a button:hover {
+      opacity: 90%;
+      
+}
+
+  /* Our Client*/
+
+.client {
+      background-color: #f8f9fa ;
+      height: 600px;
+}
+
+
+.client h1 {
+    text-align: center;
+    font-family: 'Montserrat';
+    position: relative;
+    top: 100px;
+}
+
+.client p {
+    font-family: 'Montserrat';
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+.flame {
+      position: relative;
+      top: 50px;
+      margin: 20px;
+      
+}
+
+.car {
+        position: relative;
+        top: 20px;
+        border-radius: 50%;
+        margin: 20px;
+}
+
+.quo {
+    
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 300px;
+    
+}
+
+.nom    {
+    position: relative;
+    top: 600px;
+}
+
+
+
+/*works
+
+
+
+
+*/
+
+.works {
+    background-color: white;
+    height: 800px;
+    
+    justify-content: center;
+}
+
+.works h1 {
+    text-align: center;
+    font-family: 'Montserrat';
+    position: relative;
+    top: 100px;
+}
+
+.works p {
+    font-family: 'Montserrat';
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+.works ul li {
+    float: right;
+    margin: 10px;
+}
+
+.first{
+       
+    position: relative;
+    top: 170px;
+    right: 15%;
+}
+.second{
+    float:right;
+    position: relative;
+    top: 200px;
+    right: 15.1%;
+    display: inline;
+    
+}
+.works ul li img:hover{
+    -webkit-filter: grayscale(100%) !important;
+    filter: grayscale(100%) !important;
+    font-family: 'Montserrat';
+    
+}
+
+
+
+.works ul button {
+    background-color: transparent;
+    border-radius: 30px;
+    border-color: white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 45%; 
+    cursor: pointer;
+    position: relative;
+    top: 170px;
+    font-family: 'Montserrat';
+    transition: all 0.5s;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+}
+
+/*blog
+
+
+
+*/
+
+.blog1 {
+    color: black;
+     text-align: center;
+     position: relative;    
+     top: 40px;
+     left: 60px;
+     margin-right: 50px;
+     font-family: 'Montserrat';
+     width: 334px;
+}
+
+.blogim {
+    border-radius: 5px;
+    background-color: white;
+}
+
+.blog1 p {
+     text-align: left;
+     font-size: 15px;
+}
+
+
+.im {
+      margin-top: 200px;
+      float: right;
+      vertical-align: middle;
+      position: relative;
+      display: inline-block;
+      font-family: 'Montserrat';
+      display: flex;
+      justify-content: center;
+}
+
+.box {
+    color: black;
+     text-align: center;
+     top: -150px;
+     vertical-align: middle;
+     font-family: 'Montserrat';
+     display: inline-block;
+     margin-top: 50px;
+     margin-left: 100px;
+     margin-right: 100px;
+}
+ 
+      
+ 
+
+
+
+/*footer
+  
+  
+  
+  
+*/
+
+footer {
+      
+      height: 180px;
+      background-color: black ;
+      width: 100%;
+
+}
+
+footer p{
+      position: relative;
+      top: 120px;
+      text-align: center;
+      margin-left: 200px;
+      vertical-align: center;
+      color:#6c757d;
+      font-family: 'Montserrat';
+      
+}
+
+.navigation1 {
+    
+    height: 100%;
+    margin-right: 130px;
+    width: 100%;
+}
+
+.navigation1 li {
+    
+    float: right;
+    margin-left: 10px;
+    position: relative;
+    top: 30px;
+    right: 42%;
+    
+}
+
+.input1{
+    height: 60px;
+    width: 500px;
+    border-radius: 5px;
+    margin: 20px;
+    position: relative;
+    top: -180px;
+}
+
+.limargin {
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactus {
+    margin-top: 250px;
+
+}
