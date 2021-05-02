@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
     list-style: none;
     text-decoration: none;
 }
@@ -11,21 +12,87 @@
 }
 
 body {
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 0px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
     width: 100%;
     
 }
 
+.loadcontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 18em;
+    margin-bottom: 5em;
+}
+
+.loader{
+    position: relative;
+
+}
+
+.loader::before,
+.loader::after {
+    content: "";
+    width: 1.8em;
+    height: 1.8em;
+    position: absolute;
+    border-radius: 4em;
+
+}
+
+.loader::before{
+    background: lightcoral;
+    left:0 ;
+    transform: translateX(10px);
+    animation: Moveleft 1s ease infinite;
+}
+
+.loader::after{
+    background: lightgreen;
+    right:0 ;
+    transform: translateX(-10px);
+    animation: Moveright 1s ease infinite;
+}
+
+@keyframes Moveright {
+    0%{
+       transform: translateX(-10px);
+    }
+    50%{
+        transform: translateX(10px);
+        background: rgba(144,238,144,0.692);
+
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+
+}
+
+@keyframes Moveleft {
+    0%{
+       transform: translateX(10px);
+    }
+    50%{
+        transform: translateX(-10px);
+        background: rgba(240,128,128,0.692);
+
+    }
+    100%{
+        transform: translateX(10px);
+    }
+
+}
+
 .top {  
     background: rgba(61, 34, 34, 0.3);
-    padding: 20px 0px;
+    padding: 20px 0;
     width: 100%;
     display: block;
-    border-radius: 0px;
+    border-radius: 0;
     z-index: 999;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     transition: all 0.5s ease-in-out;
     position: fixed;
 }
@@ -105,7 +172,21 @@ float: left;
     color: white;
     position: relative;
     top: 200px;
+
 }
+span{
+    opacity: 0  ;
+    transition: all 0.4s ease;
+    transform: translateY(50px);
+    display: inline-block;
+    white-space:pre;
+}
+
+span.fade{
+    opacity: 1  ;
+    transform: translateY(0px);
+}
+
 .container p {
     font-family: 'Montserrat';
     text-align: center;
