@@ -5,6 +5,7 @@ Dans une première partie ``initial commit`` on a commencé seulement par HTML &
 
 ![img.png](assets/img.png)
 
+## JavaScript
 Dans le commit de ``js update`` on a ajouté une partie javascript qui permet de
 faire l'animation du chargement du site et l'animation caractère par caractère.
 
