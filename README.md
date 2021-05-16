@@ -10,3 +10,6 @@ Dans le commit de ``js update`` on a ajouté une partie javascript qui permet de
 faire l'animation du chargement du site et l'animation caractère par caractère.
 
 ![](assets/KERRIWelcome.gif)
+
+
+``javaserver`` commit -> déploiment du serveur qui permet l'interaction serveur/client par des messages de format XML.
